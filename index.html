@@ -9,8 +9,10 @@
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Article-Clean.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/Footer-Clean.css">
@@ -33,26 +35,29 @@
                 </ul>
                 <ul class="nav navbar-nav">
                     <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
                     <li class="nav-item"><a class="nav-link" href="#profissionais">Profissionais</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="highlight-clean" style="background: rgb(248,249,250);">
+    <div id="sobre" class="highlight-clean" style="background: rgb(248,249,250);">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center">Highlight</h2>
-                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+                <h2 class="text-center">Sobre a Psicoterapia</h2>
+                <p class="text-center">Guatá é uma palavra tupi que significa caminhada. Acreditamos que o processo de psicoterapia é uma caminhada em conjunto entre a pessoa que está sendo atendida e o profissional que a está atendendo. Trata-se de um processo de cuidado que
+                    começa no momento em que a parceria é feita. Uma caminhada que pode ser ora mais longa, ora mais rápida, ora mais agradável, ora mais difícil… mas que sempre nos movimenta e nos leva a lugares diferentes de onde começamos. </p>
+                <p class="text-center">“Caminhante, não há caminho; o caminho se faz ao andar.”<br>(Antônio Machado, poeta espanhol)</p>
             </div>
-            <div class="buttons"><a class="btn btn-primary" role="button" href="#">Primary</a><button class="btn btn-light" type="button">Secondary</button></div>
+            <div class="buttons"><a class="btn btn-primary" role="button" href="#contato">Agende sua consulta</a></div>
         </div>
     </div>
     <div id="profissionais" class="team-clean">
         <div class="container">
             <div class="intro">
                 <h2 class="text-center">Nossos profissionais</h2>
-                <p class="text-center">Um de nossos profissionais altamente qualificados está pronto para te ajudar. Agende agora uma consulta online.</p>
+                <p class="text-center">Somos um grupo de psicólogas e psicólogos de diferentes abordagens e especialidades clínicas, compartilhando a valorização de conhecimentos acadêmicos em conjunto com uma prática clínica ética e socialmente orientada.</p>
             </div>
             <div class="row people">
                 <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/IMG_8370%202.jpg">
@@ -92,23 +97,22 @@
     </div>
     </div>
     <div id="contato" class="contact-clean">
-        <form method="post">
+        <form method="post" action="https://formspree.io/f/xnqokopq">
             <h2 class="text-center">Agende sua consulta</h2>
             <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Nome"></div>
-            <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="E-mail"><small class="form-text text-danger">Por favor, insira um endereço válido.</small></div>
-            <div class="form-group"><textarea class="form-control" name="message" placeholder="Mensagem" rows="14"></textarea></div>
-            <div class="form-group"><button class="btn btn-primary" type="submit">ENVIAR</button></div>
+            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="E-mail" required=""></div>
+            <div class="form-group"><textarea class="form-control" name="message" placeholder="Mensagem" rows="14" required=""></textarea></div>
+            <div class="form-group text-center"><button class="btn btn-primary" type="submit">ENVIAR</button></div>
         </form>
     </div>
     <div class="footer-basic">
         <footer>
-            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#sobre">Sobre</a></li>
                 <li class="list-inline-item"><a href="#profissionais">Profissionais</a></li>
                 <li class="list-inline-item"><a href="#contato">Contato</a></li>
             </ul>
-            <p class="copyright">Company Name © 2017</p>
+            <p class="copyright">Psicologia Guatá © 2021</p>
         </footer>
     </div>
     <script src="assets/js/jquery.min.js"></script>
