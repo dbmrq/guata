@@ -1,7 +1,7 @@
 .highlight-blue {
   color: #fff;
   background-color: #1e6add;
-  padding: 50px 0;
+  padding: 1px 0;
 }
 
 .highlight-blue p {
@@ -19,7 +19,7 @@
 }
 
 .highlight-blue .intro {
-  font-size: 16px;
+  font-size: 24px;
   max-width: 500px;
   margin: 0 auto 25px;
 }
