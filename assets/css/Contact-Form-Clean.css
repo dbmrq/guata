@@ -1,5 +1,5 @@
 .contact-clean {
-  background: #f1f7fc;
+  background: rgb(248,250,248);
   padding: 80px 0;
 }
 
@@ -83,7 +83,7 @@
 }
 
 .contact-clean form .btn-primary {
-  background-color: #055ada !important;
+  /*background-color: #055ada !important;*/
   margin-top: 15px;
   color: #fff;
 }
