@@ -70,7 +70,18 @@
     </nav>
     <div id="sobre" class="highlight-clean" style="background: rgb(248,250,248);">
         <div class="container">
-            <div class="text-center intro"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeDybt8eJa9nqOGnRrzvOt8yc40Uhwr2N0kXHEwaMYfPtqYXg/viewform?embedded=true" width="640" height="1450" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe></div>
+            <div class="text-center intro"><script type="application/javascript">
+    var loadCounter = 0;
+    var loaded = function() {
+        loadCounter += 1;
+        if (loadCounter === 2) {
+            $("iframe").attr("height", "200px");
+            $(window).scrollTo(315,0)
+        }
+    }
+</script>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeDybt8eJa9nqOGnRrzvOt8yc40Uhwr2N0kXHEwaMYfPtqYXg/viewform?embedded=true" width="640" height="1450" frameborder="0" marginheight="0" marginwidth="0" onload="loaded()">Carregando…</iframe></div>
             <div class="buttons"></div>
         </div>
     </div>
